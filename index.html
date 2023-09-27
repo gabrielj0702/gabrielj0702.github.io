@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Gabe's Website</title> 
+</head>
+
+<body>
+  <div class="topnav" id="myTopnav">
+    <label class="logo">LOGO</label>
+    <a href="index.html">Home</a>
+    <a href="news.html">News</a>
+    <a href="contact.html">Contact</a>
+    <div class="dropdown">
+      <button class="dropbtn">Classes 
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="Class 1/index.html">Class 1</a>
+        <a href="Class 2/index.html">Class 2</a>
+        <a href="Class 3/index.html">Class 3</a>
+        <a href="#">Class 4</a>
+        <a href="#">Class 5</a>
+        <a href="#">Class 6</a>
+        <!--Havent added classes 4-6 yet, sop need to fix links and make folders for those-->>
+      </div>
+    </div> 
+    <a href="about.html">About</a>
+    <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+  </div>
+
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+  </script>
+
+<div style="height: 250px;width: 100%;margin-top: 5px;margin-bottom: 5px;">
+<div style="width: 20%;float: left;"> <img src="rocks.hero-image.jpg" style= "height:250px;" ;> </div>
+<div style="width: 70%;float: right;font-size: larger;height: 250px;"> PLaceholder Text Placeholder Text PLaceholder Text Placeholder TextPLaceholder Text Placeholder TextPLaceholder Text Placeholder TextPLaceholder Text Placeholder TextPLaceholder Text Placeholder TextPLaceholder Text Placeholder TextPLaceholder Text Placeholder TextPLaceholder Text Placeholder TextPLaceholder Text Placeholder TextPLaceholder Text Placeholder TextPLaceholder Text Placeholder TextPLaceholder Text Placeholder TextPLaceholder Text Placeholder TextPLaceholder Text Placeholder TextPLaceholder Text Placeholder TextPLaceholder Text Placeholder TextPLaceholder Text Placeholder TextPLaceholder Text Placeholder TextPLaceholder Text Placeholder TextPLaceholder Text Placeholder TextPLaceholder Text Placeholder TextPLaceholder Text Placeholder TextPLaceholder Text Placeholder TextPLaceholder Text Placeholder TextPLaceholder Text Placeholder TextPLaceholder Text Placeholder TextPLaceholder Text Placeholder TextPLaceholder Text Placeholder TextPLaceholder Text Placeholder TextPLaceholder Text Placeholder TextPLaceholder Text Placeholder TextPLaceholder Text</div>
+</div>
+
+<hr>
+<h3 style="text-align: center;padding: 10px;background-color: aqua;">testing testing testing testing testing testing testing testing testing testing</h3>
+<hr>
+
+<div style="height: 500px;width: 100%;margin-top: 5px;">
+  <div style="width: 50%;float: right;"> <img src="rocks.hero-image.jpg" style= "height:420px;" ;> </div>
+  <div style="width: 50%;float: left;font-size: larger;height: 500px;"> PLaceholder Text Placeholder TextPLaceholder PLaceholder Text Placeholder Text PLaceholder Text   Text Placeholder TextPLaceholder Text Placeholder Text PLaceholder Text Placeholder Text Text Placeholder Text PLaceholder Text Placeholder TextPLaceholder Text Placeholder Text PLaceholder Text Placeholder TextPLaceholder Text Placeholder Text PLaceholder Text Placeholder TextPLaceholder Text Placeholder TextPLaceholder Text Placeholder TextPLaceholder Text Placeholder TextPLaceholder Text Placeholder TextPLaceholder Text Placeholder TextPLaceholder Text Placeholder TextPLaceholder Text Placeholder TextPLaceholder Text Placeholder TextPLaceholder Text Placeholder TextPLaceholder Text Placeholder TextPLaceholder Text Placeholder TextPLaceholder Text Placeholder TextPLaceholder Text Placeholder TextPLaceholder Text Placeholder TextPLaceholder Text Placeholder TextPLaceholder Text Placeholder TextPLaceholder Text Placeholder TextPLaceholder Text Placeholder TextPLaceholder Text Placeholder TextPLaceholder Text Placeholder TextPLaceholder Text Placeholder TextPLaceholder Text Placeholder TextPLaceholder Text Placeholder TextPLaceholder Text Placeholder TextPLaceholder Text Placeholder TextPLaceholder Text Placeholder TextPLaceholder Text Placeholder TextPLaceholder Text Placeholder TextPLaceholder Text Placeholder TextPLaceholder Text Placeholder TextPLaceholder Text</div>
+<!--find a more effeiicent way to style this, also need to move css to css sheet instead of in line-->>
+
+</div>
+
+
+<footer>
+  <nav class="myFooter" style="background-color: gray;text-align: center;padding:10px">
+    <ul>
+      <a href="#">Link 1</a>
+      <a href="#">Link 1</a>
+      <a href="#">Link 1</a>
+      <a href="#">Link 1</a>
+      <!--replace with footer links at a later point-->>
+    </ul>
+  </nav>
+</footer>
+
+</body>
+
+</html>
