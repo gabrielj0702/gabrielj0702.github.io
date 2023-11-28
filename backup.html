@@ -1,0 +1,181 @@
+<!--Hello, this is the code for my final project website. I based the code mostly on what I learned doing the labs for each and every chapter and their instructions.-->
+
+
+<html lang="en">
+<head>
+ 
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="My own personal website, that will serve as my final project.">
+    
+  
+    <link rel="shortcut icon" href="images/favicon(1).ico">
+	<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+	<link rel="icon" sizes="192x192" href="images/android-chrome-192x192.png">
+
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+    
+    <title>Gabe's Site | Home Page</title>
+</head>
+<body>
+    
+
+    <nav class="navbar navbar-expand-sm navbar-dark bg-blue fixed-top">
+    
+        <a class="navbar-brand logo" href="index.html"> Gabe's<span>Site</a>
+        
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#news">News</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Classes
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Class 1</a></li>
+                      <li><a class="dropdown-item" href="#">Class 2</a></li>
+                      <li><a class="dropdown-item" href="#">Class 3</a></li>
+                      <li><a class="dropdown-item" href="#">Class 4</a></li>
+                      <li><a class="dropdown-item" href="#">Class 5</a></li>
+                      <li><a class="dropdown-item" href="#">Class 6</a></li>
+                      <li><a class="dropdown-item" href="#">Class 7</a></li>
+                      <li><a class="dropdown-item" href="#">Class 8</a></li>
+                      <li><a class="dropdown-item" href="#">Class 9</a></li>
+                    </ul>
+                  </li>
+          
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+              </ul>
+        </div>
+
+    </nav>
+    
+    <header class="jumbotron jumbotron-fluid hero">
+        <div class="container welcome">
+            <h1 class="display-1 font-weight-bolder">My Personal Website</h1>
+            <p class="lead font-weight-bold">New and Improved</p>
+        </div>
+    </header>
+
+
+
+
+
+    <div class="formbox" id="contact">
+        <h1>Contact Me</h1>
+        <form>
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your first name">
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name">
+            
+          <label for="subject">Comments</label>
+          <textarea id="subject" name="subject" placeholder="What can I improve?" style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+
+
+
+    <main class="container-fluid mt-5" id="news">
+        
+        <div class="row">
+
+            <div class="col-sm-4">
+                <h1>Food News</h1>
+                <p class="lead">Whats new with food.</p>
+                <figure>
+                    <a href="#news2"><img class="test" src="images/food.jpg" alt="bowl of food" class="img-fluid rounded"></a>
+                </figure>
+                <div>
+                    <ul class="list-unstyled">
+                        <li><a href="https://www.denverpost.com/2023/11/27/denver-full-tank-food-truck-park-sloans-lake-west-colfax/" target="_blank">Food Truck Park</a></li>
+                        <li><a href="https://www.supermarketnews.com/consumer-trends/freshdirect-s-top-5-food-trends-2024" target="_blank">Top 5 Food Trends</a></li>
+                        <li><a href="https://www.foodsafetynews.com/2023/11/more-cantaloupe-recalled-in-connection-with-deadly-outbreak-of-salmonella-infections/" target="_blank">Poisoned Canteloupe</a></li>
+                        <li><a href="https://www.cbsnews.com/news/fast-food-inflation-2023-why-it-is-high-mcdonalds-prices/" target="_blank">Fast Food Inflation</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-sm-4">
+                <h1>Tech News</h1>
+                <p class="lead">Whats new with tech.</p>
+                <figure>
+                    <a href="#news2"><img class="test" src="images/tech.jpg" alt="technology" class="img-fluid rounded"></a>
+                </figure>
+                <div>
+                    <ul class="list-unstyled">
+                        <li><a href="https://www.cbsnews.com/news/meta-facebook-instagram-children-teens-harm/" target="_blank">Meta Targeting Young Users</a></li>
+                        <li><a href="https://apnews.com/article/us-military-ai-projects-0773b4937801e7a0573f44b57a9a5942" target="_blank">Pentagon AI</a></li>
+                        <li><a href="https://techcrunch.com/2023/11/27/how-soon-can-i-get-a-computer-brain-implant/" target="_blank">Computer Brain Implants</a></li>
+                        <li><a href="https://news.crunchbase.com/layoffs/us-tech-layoffs-accumulating-amzn-goog/" target="_blank">Big Tech Layoffs</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-sm-4">
+                <h1>World News</h1>
+                <p class="lead">Whats happening in the world.</p>
+                <figure>
+                    <a href="#news2"><img class="test" src="images/world.jpg" alt="globe" class="img-fluid rounded"></a>
+                </figure>
+                <div>
+                    <ul class="list-unstyled">
+                        <li><a href="https://www.hindustantimes.com/world-news/hamas-delays-second-hostages-release-until-israel-adheres-to-agreement-101700931666509.html" target="_blank">Hamas Hostages</a></li>
+                        <li><a href="https://www.wionews.com/videos/respiratory-illnesses-in-china-what-we-know-so-far-663133" target="_blank">New Chinese Disease</a></li>
+                        <li><a href="https://www.usnews.com/news/world/articles/2023-11-27/russian-forces-advancing-on-ukrainian-town-from-all-sides" target="_blank">Russia VS Ukraine</a></li>
+                        <li><a href="https://www.cbsnews.com/news/micronation-sealand-bates-royal-family-60-minutes-transcript/" target="_blank">The Worlds Smallest State</a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+            
+    </main>
+
+
+
+    <footer class="jumbotron-fluid text-center p-5 bg-blue">
+       
+        <div class="container text-white">
+            <p>&copy; Copyright 2023. All Rights Reserved.</p>
+            <p><a href="gabrielj0702@gmail.com" class="text-white">gabrielj0702@gmail.com</a></p>
+            <a href="https://www.facebook.com" target="_blank"><img src="images/facebook-logo (2).png" alt="white Facebook logo" class="pr-4"></a> 
+            <a href="https://twitter.com" target="_blank"><img src="images/twitter-logo (2).png" alt="white Twitter logo"></a> 
+        </div>
+        
+    </footer> 
+
+
+
+    
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="scripts/script.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
